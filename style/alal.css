@@ -2,6 +2,7 @@ p {
   text-align: center;
   color: black;
   font-family: "Noto Sans KR", sans-serif;
+  font-size: 20px;
 }
 a:hover {
   text-decoration: underline;
@@ -9,6 +10,6 @@ a:hover {
 }
 img {
   border-radius: 5%;
-  width: 300px;
+  width: 500px;
   font-size: 10px;
 }
