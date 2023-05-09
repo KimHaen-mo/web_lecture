@@ -1,0 +1,17 @@
+body {
+  text-align: center;
+  background-color: beige;
+}
+h1 {
+  text-align: center;
+  color: rgb(0, 65, 115);
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+a {
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-size: 19px;
+  font-family: "Noto Sans KR", sans-serif;
+}
