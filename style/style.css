@@ -4,7 +4,7 @@ img {
 }
 
 p {
-  color: hsl(201, 100%, 50%);
+  color: hsl(0, 0%, 0%);
   background-color: hsl(67, 100%, 50%);
   text-align: center;
   font-family: "Noto Sans KR", sans-serif;
@@ -12,7 +12,7 @@ p {
 }
 
 a:hover {
-  background-color: aqua;
+  background-color: rgb(203, 215, 215);
   text-decoration: underline;
 }
 
@@ -20,4 +20,15 @@ a:hover {
   color: rgba(0, 128, 255, 0.733);
   font-size: 32px;
   font-weight: 700;
+}
+ol {
+  list-style-type: none;
+}
+li {
+  background-color: rgb(238, 255, 0);
+  border-radius: 10px;
+  font-size: 20px;
+  border: 3px solid black;
+  margin: 3%;
+  padding: 10px;
 }
