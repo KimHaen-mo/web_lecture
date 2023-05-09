@@ -1,0 +1,14 @@
+p {
+  text-align: center;
+  color: black;
+  font-family: "Noto Sans KR", sans-serif;
+}
+a:hover {
+  text-decoration: underline;
+  background-color: rgb(65, 255, 255);
+}
+img {
+  border-radius: 5%;
+  width: 10px;
+  font-size: 10px;
+}
