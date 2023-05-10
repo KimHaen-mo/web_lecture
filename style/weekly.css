@@ -14,7 +14,7 @@ a {
   text-decoration: none;
 }
 a:hover {
-  background-color: aqua;
+  background-color: rgba(171, 188, 188, 0.507);
   border-radius: 20px;
   text-decoration: underline;
 }
