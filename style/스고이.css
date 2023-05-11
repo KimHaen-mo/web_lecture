@@ -6,21 +6,48 @@
 body {
   font-family: "Roboto", sans-serif;
   letter-spacing: -0.02em;
-  text-align: center;
 }
 
 a {
   font-size: 18px;
   line-height: 20px;
-  color: #000000;
+  color: #8492a6;
   text-decoration: none;
-  margin-right: 10px;
-  margin-left: 10px;
+  padding-bottom: 16px;
+  padding-top: 20px;
 }
-
 ol {
   list-style-type: none;
-  background-color: rgb(192, 197, 201);
   margin-left: 300px;
   margin-right: 300px;
+}
+
+li {
+  text-align: center;
+  margin: 300px auto;
+}
+.lost::after {
+  content: "";
+  display: block;
+  clear: left;
+}
+
+.Dazzler {
+  float: left;
+  margin-right: 16px;
+}
+.Miyu {
+  float: left;
+  margin-right: 16px;
+}
+.Piedra {
+  float: left;
+  margin-right: 16px;
+}
+.Sometime {
+  float: left;
+  margin-right: 16px;
+  font-weight: bold;
+  color: rgb(39, 124, 193);
+  border-bottom: 3px solid rgb(41, 156, 162);
 }
