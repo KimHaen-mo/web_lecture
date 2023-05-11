@@ -23,30 +23,33 @@ ol {
 }
 
 li {
-  text-align: center;
   margin: 300px auto;
+  justify-content: center;
 }
-.lost::after {
+.lost {
+  display: flex;
+  justify-content: center;
+}
+/* .lost::after {
   content: "";
   display: block;
-  clear: left;
-}
-
+  clear: left; 
+ } */
 .Dazzler {
   float: left;
-  margin-right: 16px;
+  margin-right: 5px;
 }
 .Miyu {
   float: left;
-  margin-right: 16px;
+  margin-right: 5px;
 }
 .Piedra {
   float: left;
-  margin-right: 16px;
+  margin-right: 5px;
 }
 .Sometime {
   float: left;
-  margin-right: 16px;
+  margin-right: 5px;
   font-weight: bold;
   color: rgb(39, 124, 193);
   border-bottom: 3px solid rgb(41, 156, 162);
